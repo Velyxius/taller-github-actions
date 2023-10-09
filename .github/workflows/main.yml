@@ -2,7 +2,7 @@ name: Test Node.js App
 run-name: GitHub-Actions configuration to execute a test
 
 on:
-  push:
+  pull_request:
     branches:
       - master
 
